@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Сортировка пузырьком</title>
+</head>
+<body>
+<h>Введите числа для сортировки</h>
+<form action="/sort" method="post">
+    <label for="numbers">Числа, через запятую:</label>
+    <input type="text" id="numbers" name="numbers" required>
+    <button type="submit">Отсортировать</button>
+</form>
+</body>
+</html>
